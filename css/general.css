@@ -21,6 +21,10 @@ body {
 	margin-left: -20px;
 }
 
+home h1 {
+	align:center;
+}
+
 .nav-list li {
 	list-style-type:none;
 	display:inline;
