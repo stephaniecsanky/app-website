@@ -8,19 +8,22 @@ body {
 	padding: 0;
 }
 
+.brand-img {
+	width: 10%;
+	height: 10%;
+}
+
 home h1 {
 	align:center;
 }
 
-
-@media (min-width: 250px) and (max-width: 800px) {
-
-	/* Button toggle here */
-
+.nav > li > a {
+	padding-left: 30px;
+	font-size:16px;
 }
 
-a {
-	color:#FF0; 
+a:hover {
+	color:#FF0;
 	text-decoration:none;
 	line-height:20px;	
 }
@@ -69,7 +72,11 @@ footer {
 	padding: 20px;	
 }
 
-
+@media (min-width: 768px) and (max-width: 1100px) {
+	.nav > li > a {
+		padding-left: 0px;
+	}
+}
 
 @media (min-width: 800px) and (max-width: 1100px) {
 	
@@ -93,7 +100,16 @@ footer {
 		font-size: 20px;
 		padding: 20px;	
 	}
-
+	
+	.navbar {
+		font-size: 28px;
+	}
+	
+	.navbar-nav > li > a {
+		font-size: 20px;
+		text-align:center;
+		padding: 20px 20px;
+	}
 }
 
 
@@ -116,6 +132,12 @@ footer {
 		padding-right: 30px;
 	}
 	
+	.navbar-nav > li > a {
+		font-size: 24px;
+		text-align:center;
+		padding: 20px 20px;
+	}
+	
 	#btn-download {
 		font-family: 'Gotham-light', sans-serif;
 		padding: 14px;
@@ -126,6 +148,7 @@ footer {
 		margin-top: 20px;
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));	
 	}
+	
 	footer {
 		font-family: 'Gotham-Thin';
 		font-size: 20px;
