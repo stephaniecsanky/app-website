@@ -13,8 +13,9 @@ body {
 	height: 10%;
 }
 
-.navbar-nav {
+.nav {
 	background-color: #cc9966;
+	color:#fff;
 }
 
 home h1 {
