@@ -18,6 +18,14 @@ body {
 	color:#fff;
 }
 
+.navbar-inverse .navbar-brand {
+	color: #F7DCBB;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F7DCBB;
+}
+
 home h1 {
 	align:center;
 }
