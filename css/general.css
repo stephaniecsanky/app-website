@@ -6,6 +6,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	padding-top: 70px;
 }
 
 .brand-img {
@@ -13,7 +14,7 @@ body {
 	height: 10%;
 }
 
-.navbar-static-top {
+.navbar-fixed-top {
 	background-color: #cc9966;
 	color:#fff;
 }
