@@ -3,32 +3,27 @@
   <meta charset="UTF-8">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
+  <link href="css/toggle.css" rel="stylesheet">
   <title>App Website</title>
 </head>
 <body>
 
-<nav class="navbar navbar-default nav nav-top" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-   <a class="navbar-brand" href="#"><img src="img/logo.svg" class="brand-img">Shop Buddy</a>
-  </div>
+<header class="masthead">
+	<div class="masthead-top">
+    	<h1 class="logo-wrapper"><a href="index.html" class="logo">Galilean Moons</a></h1>
+    	<a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
+	</div>
+    <nav class="nav nav-top" data-state="collapsed">
+	   <a class="navbar-brand" href="#"><img src="img/logo.svg" class="brand-img">Shop Buddy</a>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-state="collapsed">
     	<ul class="nav navbar-nav">
-     		<li class="active"><a href="#home">Home</a></li>
+			<li class="active"><a href="#home">Home</a></li>
 			<li><a href="#screenshots">Screenshots</a></li>
 			<li><a href="#features">Features</a></li>
 			<li><a href="#testimonials">Testimonials</a></li>
-    	</ul>
-  	</div><!-- /.navbar-collapse -->
-</nav>
+		</ul>
+	</nav>
+</header>
 
 <div id="home">
 	<img src="http://placehold.it/400x300" class="image-float-l">
