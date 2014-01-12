@@ -47,6 +47,10 @@ html a:hover {
 	text-decoration:none;
 }
 
+#row1 {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 
 #home img {
 	height:100%;
@@ -73,7 +77,12 @@ html a:hover {
 	padding: 10px;
 }
 
-.pull-right {
+#btn-download a:hover {
+	background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
+	color: #fff;
+}
+
+#pull-right {
 	text-align:right;
 	float: right;
 }
@@ -111,7 +120,7 @@ footer a:hover {
 		padding-right: 30px;
 	}
 	
-	#btn-download {
+	.btn-download {
 		font-size: 20px;
 		height: 70px;
 		width: 150px;
@@ -128,7 +137,7 @@ footer a:hover {
 	.navbar-nav > li > a {
 		font-size: 20px;
 		text-align:center;
-		padding: 20px 20px;
+		padding-top: 10px;
 	}
 }
 
@@ -144,11 +153,13 @@ footer a:hover {
 		margin-top: 20px;
 	}
 	
+	#row1 {
+		height: 100%;
+	}
+	
 	#home img {
-		height:300px;
-		padding-bottom: 20px%;
+		padding-bottom: 20px;
 		float:left;
-		width: 40%;
 		padding-right: 30px;
 	}
 	
@@ -158,13 +169,11 @@ footer a:hover {
 		padding: 20px 20px;
 	}
 	
-	#btn-download {
+	.btn-download {
 		font-family: 'Gotham-light', sans-serif;
 		padding: 14px;
 		border-radius: 5px;
 		font-size: 20px;
-		height: 70px;
-		width: 150px;
 		margin-top: 20px;
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));	
 	}
