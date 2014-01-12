@@ -27,6 +27,11 @@ body {
         position: relative;
 }
 
+.nav {
+	list-style-type:none;
+}
+
+
 .logo-wrapper {
         margin: 0;
         padding: 0;
@@ -39,6 +44,7 @@ body {
 .nav > li {	
 	display: inline-block;
 
+}
 }
 
 .nav-btn,
@@ -70,7 +76,7 @@ body {
 }
 
 .nav {
-        background-color: #000;
+	background-color: #cc9966;
 }
 
 .nav > ul {
