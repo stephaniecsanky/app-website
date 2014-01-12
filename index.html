@@ -6,32 +6,37 @@
   <title>App Website</title>
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+<nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
-   
-    <a class="navbar-brand" href="#"><img src="img/logo.svg" class="brand-img">Shop Buddy</a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+   <a class="navbar-brand" href="#"><img src="img/logo.svg" class="brand-img">Shop Buddy</a>
   </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <ul class="nav navbar-nav">
-      	<li><a href="#home">Home</a></li>
-		<li><a href="#screenshots">Screenshots</a></li>
-		<li><a href="#features">Features</a></li>
-		<li><a href="#testimonials">Testimonials</a></li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    	<ul class="nav navbar-nav">
+     		<li class="active"><a href="#home">Home</a></li>
+			<li><a href="#screenshots">Screenshots</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+    	</ul>
+  	</div><!-- /.navbar-collapse -->
 </nav>
 
-	
-	<div id="home">
-		<img src="http://placehold.it/400x300" class="image-float-l">
-		<h1>Shop Buddy</h1>
-		<p>
-  		Shop Buddy is an app and also a place to go for all of your retail shopping needs. Start with your own profile, browse stores and even make purchases from your phone without being in store.
-		<center><button id="btn-download">Download</button>	</center>
-		</p>
-		
-	</div>
+<div id="home">
+	<img src="http://placehold.it/400x300" class="image-float-l">
+	<h1>Shop Buddy</h1>
+	<p>Shop Buddy is an app and also a place to go for all of your retail shopping needs. Start with your own profile, browse stores and even make purchases from your phone without being in store.
+	<center><button id="btn-download">Download</button>	</center>
+	</p>
+</div>
 <footer>
 	<p>© 2014 Shop Buddy, Inc. <a href="#" class="pull-right">Back to top</a></p>
 </footer>
