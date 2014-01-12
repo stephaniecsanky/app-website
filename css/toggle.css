@@ -112,8 +112,8 @@ body {
         margin-top: 1.5em;
 }
 
+
 .nav-top {
-        max-height: 0;
 
         -moz-transition: all 250ms linear;
         -o-transition: all 250ms linear;
