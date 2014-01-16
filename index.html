@@ -4,6 +4,7 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/general.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
   <title>App Website</title>
 </head>
   <body>
@@ -39,17 +40,60 @@
 		<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 intro">
 		<h1>Shop Buddy</h1>
 		<p>Shop Buddy is an app and also a place to go for all of your retail shopping needs. Start with your own profile, browse stores and even make purchases from your phone without being in store.
-		<center><a href="https://itunes.apple.com/us/genre/ios/id36?mt=8"><button class="btn-default btn-lg">Download</button></a></center>
+		<center><a href="https://itunes.apple.com/us/genre/ios/id36?mt=8"><button class="btn-default btn-lg btn-yellow">Download</button></a></center>
 		</p>
 		</div>
 		</div>
 </div>
+<div class="container carousel">
+<div id="slides">
+ <img data-state="current" src="img/argyle-0.png" alt="Argyle">
+      <img src="img/argyle-1.png" alt="Argyle1">
+      <img src="img/argyle-2.png" alt="Argyle2">
+      <img src="img/argyle-3.png" alt="Argyle3">
+      <img src="img/argyle-4.png" alt="Argyle4">
+    </div>
+    <div class="carousel-buttons">
+      <button class="next">Next</button>
+    </div>
+  </div>
+  </div>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
 
 
 <footer>
 	<p>© 2014 Shop Buddy, Inc. <a href="#" class="pull-right">Back to top</a></p>
 </footer>
 <script src="js/jquery-1.10.1.js"></script>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+ <script src="js/slide.js"></script>
 <script src="js/footer-toggle-hybrid.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
