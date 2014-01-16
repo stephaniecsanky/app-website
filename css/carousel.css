@@ -26,6 +26,12 @@
 
 /* TESTING CODE BELOW */
 
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
 .slider {
   margin: 10px 0;
   width: 580px; /* Update to your slider width */
