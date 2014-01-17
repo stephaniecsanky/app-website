@@ -37,18 +37,15 @@ body {
 .nav > li > a {
 	padding-left: 30px;
 	font-size:16px;
+	color:#C90;
 }
 
-a:hover {
-	color:#FF0;
+.nav > li > a:hover {
 	text-decoration:none;
 	line-height:20px;	
+	color:#FFF;
 }
 
-html a:hover {
-	color:#999;
-	text-decoration:none;
-}
 
 #row {
 	padding-bottom: 50px;
@@ -116,7 +113,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #000;
+	color: #C90;
 }
 
 
