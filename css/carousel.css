@@ -1,9 +1,3 @@
-.carousel {
-  overflow: hidden;
-  position: relative;
-  padding: 0 0 52.6%;
-}
-
 .slides [data-state="current"] {
   z-index: 100;
 }
