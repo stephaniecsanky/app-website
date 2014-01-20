@@ -34,7 +34,7 @@
 
 .slider {
   margin: 10px 0;
-  width: 580px; /* Update to your slider width */
+  width: 100%; /* Update to your slider width */
   height: 250px; /* Update to your slider height */
   position: relative;
   overflow: hidden;
