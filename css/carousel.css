@@ -1,5 +1,5 @@
 /* TESTING TEACHER PROVIDED CODE BELOW */
-.wrapper {
+ .wrapper {
   width: 960px;
   margin: 0 auto;
   padding-top: 50px;
@@ -18,7 +18,7 @@
   position: absolute; 
   top: 0; 
   left: 0; 
-}
+} 
 
 .scroll {
         overflow: hidden;
