@@ -4,13 +4,6 @@
   padding: 0 0 52.6%;
 }
 
-.carousel img {
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 .slides [data-state="current"] {
   z-index: 100;
 }
