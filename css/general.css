@@ -19,12 +19,9 @@ body {
 	color:#fff;
 }
 
-.navbar-inverse .navbar-brand {
-	color: #F7DCBB;
-}
 
 .navbar-inverse .navbar-nav>li>a {
-	color:#C90;
+	color:#EED4A5;
 }
 
 .nav > li > a:hover {
@@ -84,8 +81,17 @@ body {
 
 #screenshots { /* Screenshots carousel */
 	text-align:center;
+	padding-top: 50px;
+}
+
+.img-slide {
+	background-color:#EED4A5;
+	width: 100%;
 }
 	
+.flex-direction-nav {
+	display:none;
+}
 
 #pull-right {
 	text-align:right;
