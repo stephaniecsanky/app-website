@@ -74,15 +74,15 @@ body {
 }
 
 
-#btn-download a:hover {
+#btn-download a:hover { /* Download button */
 	background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
 }
 
-.btn-yellow {
+.btn-yellow { /* Download button */
 	background-color:#FFC425;
 }
 
-#screenshots {
+#screenshots { /* Screenshots carousel */
 	width: 80%;
 	text-align:center;
 }
