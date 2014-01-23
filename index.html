@@ -1,29 +1,41 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/carousel.css" rel="stylesheet">
-  <link href="css/flexslider.css" rel="stylesheet">
-  <link href="css/general.css" rel="stylesheet">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <title>App Website</title>
-   <script src="js/modernizr-2.6.2.min.js"></script>
-		<script src="js/jquery-1.10.1.js"></script>
-<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="js/footer-toggle-hybrid.js"></script>
-<script src="js/slide.js"></script>
-<script src="js/jquery-flexslider.js"></script>
+<!DOCTYPE html><head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="css/bootstrap.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+ 	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" /> 	
+	<link href="css/carousel.css" rel="stylesheet">
+  	<link href="css/flexslider.css" rel="stylesheet">
+  	<link href="css/general.css" rel="stylesheet">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width">
+  	<title>App Website</title>
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script> 
+   	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+	<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script> 
+	<script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script> 
+	<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script> 
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="js/footer-toggle-hybrid.js"></script>
+	<script src="js/slide.js"></script>
+	<script src="js/video.js"></script>
+	<script src="js/jquery-flexslider.js"></script>
 	<script type='text/javascript'>
 			$(document).ready(function(){
 				$("#screenshots").flexslider({
 					animation: "slide"
 				});
 			});
-		</script>		
+		</script>	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>	
 </head>
 <body>
 
@@ -53,9 +65,14 @@
 
 		<div class="container container-home">
 			<div id="row">
-				<div class="col-lg-6 col-xs-12 col-sm-7 col-md-6">
-					<img src="http://placehold.it/500x300" class="img-responsive video" alt="App video">
-				</div>
+				<button id="btn-open">Open Video</button>
+
+	<dialog id="video">
+		<button id="btn-close">×</button>
+		<div id="video-placeholder">
+			
+		</div>
+	</dialog>
 				<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 intro">
 					<h1>Shop Buddy</h1>
 					<p>Shop Buddy is an app and also a place to go for all of your retail shopping needs. Start with your own profile, browse stores and even make purchases from your phone without being in store.</p>
