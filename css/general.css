@@ -82,6 +82,12 @@ body {
 	background-color:#FFC425;
 }
 
+.slides > li {
+	display:inline-block;
+	list-style-type:none;
+}
+	
+
 #pull-right {
 	text-align:right;
 	float: right;
