@@ -93,4 +93,18 @@ html[xmlns] .slides {display: block;}
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
-}// JavaScript Document
+}
+
+@media screen and (min-width: 800px) {
+	.flex-viewport img {
+		width: 85%;
+		height: 85%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.flex-viewport img {
+		width: 75%;
+		height: 75%;
+	}
+}
