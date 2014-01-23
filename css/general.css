@@ -82,9 +82,9 @@ body {
 	background-color:#FFC425;
 }
 
-.slides > li {
-	display:inline-block;
-	list-style-type:none;
+#screenshots {
+	width: 80%;
+	text-align:center;
 }
 	
 
