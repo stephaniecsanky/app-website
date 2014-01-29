@@ -19,6 +19,22 @@ body {
 	color:#fff;
 }
 
+@media (min-width: 200px) and (max-width: 300px) {
+
+	.brand-img {
+		width: 10%;
+		height: 10%;
+	}
+
+	.navbar-brand {
+		line-height: 10px;
+		padding: 0;
+		padding-left: 8px;
+		float:none;
+	}
+
+}
+
 
 
 .navbar-inverse .navbar-nav>li>a {
@@ -102,6 +118,25 @@ dialog + .backdrop {
 	right: -16px;
 }
 
+.btn-video {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
+	padding: 30px 10px;
+	border-radius: 10px;
+	margin-top: 30px;
+	border:medium;
+	text-align:center;
+	text-decoration:none;
+}
+
+.btn-video a:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffda76), color-stop(10%,#f1c039), color-stop(50%,#fccd4d), color-stop(89%,#C99D08));
+}
+
+a:-webkit-any-link {
+text-decoration: none;
+cursor: auto;
+}
+
 /*
 Fancy box */
 
@@ -158,12 +193,7 @@ footer a:hover {
 
 @media (min-width: 800px) and (max-width: 1100px) {
 	
-	
-	.btn-download {
-		font-size: 20px;
-		height: 70px;
-		width: 150px;
-	}
+
 
 	footer {
 		font-family: 'Gotham-Thin';
@@ -189,15 +219,6 @@ footer a:hover {
 		font-size: 24px;
 		text-align:center;
 		padding: 20px 20px;
-	}
-	
-	.btn-download {
-		font-family: 'Gotham-light', sans-serif;
-		padding: 14px;
-		border-radius: 5px;
-		font-size: 20px;
-		margin-top: 20px;
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));	
 	}
 	
 	footer {
