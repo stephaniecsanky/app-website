@@ -19,6 +19,8 @@ body {
 	color:#fff;
 }
 
+
+
 .navbar-inverse .navbar-nav>li>a {
 	color:#EED4A5;
 }
@@ -29,8 +31,10 @@ body {
 	color:#FFF;
 }
 
-#row {
-	padding-top: 40px;
+
+.row1-img {
+	width: 70%;
+	padding-top: -20px;
 }
 
 .container-home {
