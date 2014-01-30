@@ -36,7 +36,6 @@ body {
 }
 
 
-
 .navbar-inverse .navbar-nav>li>a {
 	color:#EED4A5;
 }
@@ -46,7 +45,6 @@ body {
 	line-height:20px;	
 	color:#FFF;
 }
-
 
 .row1-img {
 	width: 70%;
@@ -120,7 +118,7 @@ dialog + .backdrop {
 
 .btn-video {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
-	padding: 30px 10px;
+	padding: 10px 10px;
 	border-radius: 10px;
 	margin-top: 30px;
 	border:medium;
