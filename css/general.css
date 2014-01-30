@@ -127,7 +127,7 @@ dialog + .backdrop {
 }
 
 .btn-video a:hover {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffda76), color-stop(10%,#f1c039), color-stop(50%,#fccd4d), color-stop(89%,#C99D08));
+	color:#C66;
 }
 
 a:-webkit-any-link {
