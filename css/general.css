@@ -17,6 +17,7 @@ body {
 .navbar-fixed-top {
 	background-color: #000;
 	color:#fff;
+	vertical-align:top;
 }
 
 @media (min-width: 200px) and (max-width: 300px) {
@@ -27,14 +28,15 @@ body {
 	}
 
 	.navbar-brand {
-		line-height: 10px;
 		padding: 0;
-		padding-left: 8px;
 		float:none;
 	}
 
 }
 
+blockquote {
+	border:none;
+}
 
 .navbar-inverse .navbar-nav>li>a {
 	color:#EED4A5;
@@ -46,9 +48,9 @@ body {
 	color:#FFF;
 }
 
+
 .row1-img {
 	width: 70%;
-	padding-top: -20px;
 }
 
 .container-home {
@@ -58,7 +60,7 @@ body {
 
 
 .img-responsive {
-	padding-bottom: 10px;
+	padding: 10px;
 }
 
 .circle {
@@ -98,23 +100,6 @@ dialog + .backdrop {
   background-color: rgba(0,255,0,0.5);
 }
 
-#btn-close { /* Generally you should not style id like this(#), more so class(.), because if you want to have more than one button, it'll look the same */
-	width: 32px;
-	height: 32px;
-	border-radius: 16px;
-	text-align: center;
-	line-height: 24x;
-	border: 2px solid #fff;
-	background-color: #000;
-	color: #fff;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-	font-weight: bold;
-	padding: 0;
-	cursor: pointer;
-	position:absolute; /* allows us to move the object with the co-ordinates system, while also not impacting the location of text */
-	top: -16px;
-	right: -16px;
-}
 
 .btn-video {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
@@ -177,10 +162,19 @@ Fancy box */
 	float: right;
 }
 
+.features {
+	text-align:center;
+}
+
+.testimonials {
+	text-align:center;
+	background-color: #EED4A5;
+}
+
 footer {
 	font-family: 'Gotham-Thin';
 	font-size: 14px;
-	line-height: px;
+	line-height: 10px;
 	background-color: #000;
 	color:#fff;
 	padding: 10px;	
@@ -193,7 +187,6 @@ footer a {
 footer a:hover {
 	color: #FFF;
 }
-
 
 @media (min-width: 800px) and (max-width: 1100px) {
 

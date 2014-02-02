@@ -104,14 +104,14 @@ html[xmlns] .slides {display: block;}
 
 @media screen and (min-width: 800px) {
 	.flex-viewport img {
-		width: 85%;
-		height: 85%;
+		width: 75%;
+		height: 75%;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 	.flex-viewport img {
-		width: 75%;
-		height: 75%;
+		width: 60%;
+		height: 60%;
 	}
 }
