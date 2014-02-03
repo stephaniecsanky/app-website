@@ -101,15 +101,6 @@ dialog + .backdrop {
 }
 
 
-.btn-video {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(10%,#fbdf93), color-stop(50%,#fccd4d), color-stop(89%,#f8b500));
-	padding: 10px 10px;
-	border-radius: 10px;
-	margin-top: 20px;
-	border:medium;
-	text-decoration:none;
-}
-
 img.grayscale:hover {
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
   filter: gray; /* IE6-9 */
@@ -170,7 +161,7 @@ Fancy box */
 	list-style-type: none;
 }
 
-/* ANIMATION STUFF BELOW */
+		/* ANIMATION STUFF BELOW */
 
 .feat-list img {
         opacity: 1;
@@ -223,7 +214,6 @@ Fancy box */
 }
 
 
-
 .testimonials {	
 	background-color: #EED4A5;
 	text-align:center;
@@ -232,7 +222,7 @@ Fancy box */
 
 .testimonials blockquote {
 	text-align:center;
-	-webkit-animation: testimonial-opacity 10s linear 1 forwards;
+	-webkit-animation: testimonial-opacity 8s linear 1 forwards;
 }
 
 @-webkit-keyframes testimonial-opacity {
