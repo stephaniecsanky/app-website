@@ -135,6 +135,10 @@ cursor: auto;
 	padding-bottom: 20px;
 }
 
+.flex-control-nav { 
+	position: relative; 
+}
+
 .img-slide {
 	background-color:#EED4A5;
 	width: 100%;
