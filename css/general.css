@@ -132,10 +132,13 @@ cursor: auto;
 }
 /* end of fancy box */
 
-#screenshots { /* Screenshots carousel */
+.screenshots { /* Screenshots carousel */
 	text-align:center;
 	padding-top: 35px;
+
 	padding-bottom: 20px;
+	width: 100%;
+	background-color:#FFF;
 }
 
 .flex-control-nav { 
@@ -154,7 +157,7 @@ cursor: auto;
 .features {
 	text-align:center;
 	background-color:#FC9;
-	margin-top: 20px;
+	
 }
 
 .features img {
@@ -166,83 +169,6 @@ cursor: auto;
 .feat-list {
 	list-style-type: none;
 }
-
-		/* ANIMATION STUFF BELOW */
-
-.feat-list img {
-        opacity: 1;
-       /* -webkit-transform: translateY(140px); */
-}
-
-@-webkit-keyframes feature-fly {
-        0% {
-                opacity:0;
-                -webkit-transform: translateY(140px);
-        }
-
-        40px {
-                opacity: 1;
-        }
-
-        100% {
-                opacity: 1;
-                -webkit-transform: translateY(0);
-        }
-}
-
-
-.js-feature-animate {
-        -webkit-animation: feature-fly 4s ease-out 1 forwards;
-}
-
-.js-feature-delay-1 {
-        -webkit-animation-delay: 100ms;
-}
-
-.js-feature-delay-2 {
-        -webkit-animation-delay: 150ms;
-}
-
-.js-feature-delay-3 {
-        -webkit-animation-delay: 200ms;
-}
-
-.js-feature-delay-4 {
-        -webkit-animation-delay: 250ms;
-}
-
-.js-feature-delay-5 {
-        -webkit-animation-delay: 325ms;
-}
-
-.js-feature-delay-6 {
-        -webkit-animation-delay: 360ms;
-}
-
-
-.testimonials {	
-	background-color:#FFF;
-	text-align:center;
-	padding-bottom: 10px;
-}
-
-.testimonials blockquote {
-	text-align:center;
-	-webkit-animation: testimonial-opacity 8s linear 1 forwards;
-}
-
-@-webkit-keyframes testimonial-opacity {
-	0% {
-		-webkit-opacity: 0;
-	}
-	
-	100% {
-		opacity:1;
-	}
-}
-
-/* ANIMATIONS END */ 
-
 
 footer {
 	font-family: 'Gotham-Thin';
