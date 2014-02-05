@@ -20,6 +20,7 @@ body {
 	vertical-align:top;
 }
 
+
 @media (min-width: 200px) and (max-width: 300px) {
 
 	.brand-img {
@@ -56,6 +57,7 @@ blockquote {
 .container-home {
 	height: 100%;
 	padding-bottom: 10px;
+	background-color:#FC9;
 }
 
 
@@ -140,7 +142,6 @@ cursor: auto;
 }
 
 .img-slide {
-	background-color:#EED4A5;
 	width: 100%;
 }
 
@@ -151,6 +152,8 @@ cursor: auto;
 
 .features {
 	text-align:center;
+	background-color:#FC9;
+	margin-top: 20px;
 }
 
 .features img {
@@ -217,7 +220,7 @@ cursor: auto;
 
 
 .testimonials {	
-	background-color: #EED4A5;
+	background-color:#FFF;
 	text-align:center;
 	padding-bottom: 10px;
 }
