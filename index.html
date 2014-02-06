@@ -21,7 +21,8 @@
 	<script src="flexslider/jquery.flexslider.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/animations.js"></script>	
-	<script type='text/javascript'>
+	<script src="js/ajax.js"></script> <!-- ADD MY AJAX JSON since I have it linked already -->
+	<script type='text/javascript'> 
 			$(document).ready(function(){
 				$("#screenshots").flexslider({
 					animation: "slide"
@@ -58,8 +59,11 @@
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
+	
 	</div>
 
+
+<!-- Content starts here -->
 		<div class="container container-home" id="home">
 			<div id="row">
 				<div class="col-lg-6 col-xs-12 col-sm-6 col-md-6">
@@ -75,6 +79,7 @@
 			</div>
 		</div>
 
+<!-- Screenshots and slider content starts below -->
 		<section id="screenshots">
 			<div class="container img-slide">		
 				<div id="screenshots">
@@ -89,6 +94,8 @@
 			</div>
 		</section>
 		
+		
+<!-- App features and animation section here -->
 		<section id="features">
 			<div class="container">
 				<h2>Features</h2>
@@ -103,6 +110,7 @@
 			</div>
 		</section>
 		
+<!-- Testimonial sections below with animation, switches through to different testimonials -->
 		<section id="testimonials">
 			<blockquote>
 				<div>
@@ -110,23 +118,39 @@
 				</div>
 			</blockquote>
 			
-			<blockquote>
+			<blockquote> <!-- TESTIMONIAL 0 -->
 				<div>
 					<q>Thanks to ShopBuddy, my shopping experience is now stress-free!  I'll never shop without this app again!</q>
 					<p><strong>— Jane Doe</strong></p>
 				</div>
 			</blockquote>
 			
-			<blockquote>
+			<blockquote>  <!-- TESTIMONIAL 1 -->
 				<div>
 					<q>This app made my shopping trips quicker and easier. No more wasting time looking for things and waiting in lines!</q>
 					<p><strong>— John Smith</strong></p>
 				</div>
 			</blockquote>
+			
+			<blockquote>  <!-- TESTIMONIAL 2 -->
+				<div>
+					<q>This app is so great, you'll want to go shopping every day!</q>
+					<p><strong>— Sam Wood</strong></p>
+				</div>
+			</blockquote>
+			
+			<blockquote>  <!-- TESTIMONIAL 3 -->
+				<div>
+					<q>Before I had this app, I dreaded going shopping and spending money. Thanks to ShopBuddy, i've found a love for shopping!</q>
+					<p><strong>— Alex Hart</strong></p>
+				</div>
+			</blockquote>	
+		
 		</section>
 					
 <footer>
 	<p>© 2014 Stephanie Csanky. <a href="#" class="pull-right">Back to top</a></p>
 </footer>
+
 </body>
 </html>
