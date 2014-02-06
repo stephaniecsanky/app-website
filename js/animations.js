@@ -7,7 +7,6 @@ var $features = $('.feat-list img'); /* Unlike other above variables, this is se
 
 $('.features-section').waypoint(function () {
 
-	$features.addClass('js-feature-animate');
 }, {offset: '60%'});
 
 
