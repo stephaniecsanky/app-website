@@ -20,6 +20,14 @@
 }
 
 
+.nav > li > a:hover {
+	-webkit-transition: .3s all ease;
+-moz-transition: .3s all ease;
+-o-transition: .3s all ease;
+transition: .3s all ease;
+}
+
+
 /* ANIMATION TESTING BELOW */
 
 
