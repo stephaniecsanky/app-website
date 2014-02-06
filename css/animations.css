@@ -21,10 +21,10 @@
 
 
 .nav > li > a:hover {
-	-webkit-transition: .3s all ease;
--moz-transition: .3s all ease;
--o-transition: .3s all ease;
-transition: .3s all ease;
+	-webkit-transition: .5s all ease;
+		-moz-transition: .5s all ease;
+			-o-transition: .5s all ease;
+				transition: .5s all ease;
 }
 
 
