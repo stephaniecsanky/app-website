@@ -13,6 +13,7 @@ $('.features-section').waypoint(function(direction) {
 	$features.eq(4).addClass('js-feature-delay-4');
 	$features.eq(6).addClass('js-feature-delay-3');
 	$features.addClass('js-feature-animate');
+	console.log('test');
 }, {offset: '10%'}); 
 
 
