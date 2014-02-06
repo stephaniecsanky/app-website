@@ -1,4 +1,4 @@
-.testimonials {	
+#testimonials {	
 	background-color:#FFF;
 	text-align:center;
 	padding-bottom: 10px;
@@ -16,7 +16,7 @@
 /* ANIMATION TESTING BELOW */
 
 
-.features {
+#features {
 	background-color:#FC9;
 
 }

@@ -132,7 +132,7 @@ cursor: auto;
 }
 /* end of fancy box */
 
-.screenshots { /* Screenshots carousel */
+#screenshots { /* Screenshots carousel */
 	text-align:center;
 	padding-top: 35px;
 
@@ -154,13 +154,13 @@ cursor: auto;
 	float: right;
 }
 
-.features {
+#features {
 	text-align:center;
 	background-color:#FC9;
 	margin-top: 20px;	
 }
 
-.features img {
+#features img {
 	padding: 0;
 	margin: 0;
 	text-align:center;
