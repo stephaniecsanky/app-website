@@ -1,7 +1,7 @@
 /* My animation file */
 var $win = $(window);
 
-var $features = $('.feat-list') /* Unlike other above variables, this is 4 separate imgs, a collection of images */
+var $features = $('.feat-list img') /* Unlike other above variables, this is 4 separate imgs, a collection of images */
 
 
 
