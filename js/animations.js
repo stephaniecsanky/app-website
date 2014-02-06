@@ -1,7 +1,6 @@
 /* My animation file */
 var $win = $(window);
-var $sun = $('.sun');
-var $dipper = $('.dipper');
+
 var $features = $('.feat-list') /* Unlike other above variables, this is 4 separate imgs, a collection of images */
 
 
