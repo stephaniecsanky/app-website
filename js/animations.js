@@ -1,7 +1,7 @@
 /* My animation file */
 var $win = $(window);
 
-var $features = $('.feat-list img') /* Unlike other above variables, this is separate imgs, a collection of images */
+var $features = $('.feat-list img'); /* Unlike other above variables, this is separate imgs, a collection of images */
 
 
 
@@ -14,6 +14,9 @@ $('.features-section').waypoint(function () {
 	$features.eq(6).addClass('js-feature-delay-2');
 	$features.addClass('js-feature-animate');
 }, {offset: '60%'});
+
+
+
 
 
 
