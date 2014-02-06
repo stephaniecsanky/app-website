@@ -4,7 +4,7 @@ var $win = $(window);
 var $features = $('.feat-list img'); /* Unlike other above variables, this is separate imgs, a collection of images */
 
 
-$('.features').waypoint(function(direction) {
+$('#features').waypoint(function(direction) {
 	$features.eq(0).addClass('js-feature-delay-1');
 	$features.eq(2).addClass('js-feature-delay-5');
 	$features.eq(3).addClass('js-feature-delay-2');
