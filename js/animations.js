@@ -10,6 +10,9 @@ $('.ships-section').waypoint(function () {
 	$ships.eq(0).addClass('js-feature-delay-1');
 	$ships.eq(2).addClass('js-feature-delay-3');
 	$ships.eq(3).addClass('js-feature-delay-2');
+	$ships.eq(5).addClass('js-feature-delay-1');
+	$ships.eq(4).addClass('js-feature-delay-3');
+	$ships.eq(6).addClass('js-feature-delay-2');
 	$ships.addClass('js-feature-animate');
 }, {offset: '60%'});
 
