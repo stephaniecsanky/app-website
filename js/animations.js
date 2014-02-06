@@ -14,9 +14,9 @@ $('.dipper-section').waypoint(function () {
 }, {offset: '60%'});
 
 $('.ships-section').waypoint(function () {
-	$ships.eq(0).addClass('js-ship-delay-1');
-	$ships.eq(2).addClass('js-ship-delay-3');
-	$ships.eq(3).addClass('js-ship-delay-2');
+	$ships.eq(0).addClass('js-ships-feature-1');
+	$ships.eq(2).addClass('js-ships-delay-3');
+	$ships.eq(3).addClass('js-ships-delay-2');
 	$ships.addClass('js-ships-animate');
 }, {offset: '60%'});
 
