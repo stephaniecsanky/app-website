@@ -59,7 +59,7 @@
 
 
 .js-feature-animate {
-        -webkit-animation: feature-animate 2s ease-out 1 forwards;
+        -webkit-animation: feature-animate 1s ease-out 1 forwards;
 }
 
 .js-feature-delay-1 {
