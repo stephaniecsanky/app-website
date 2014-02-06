@@ -74,11 +74,11 @@
 /* ANIMATION TESTING BELOW */
 
 
-.ships-section {
+.features-section {
         background-color: #f6a500;
 }
 
-.ships {
+.feat-list {
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -86,18 +86,18 @@
 }
 
 
-.ships li {
+.feat-list li {
         display: inline-block;
         margin: 0 2rem;
 }
 
-.ships img {
+.feat-list img {
         width: 140px;
         opacity: 0;
         -webkit-transform: translateY(140px);
 }
 
-@-webkit-keyframes ship-fly {
+@-webkit-keyframes feature-animate {
         0% {
                 opacity:0;
                 -webkit-transform: translateY(140px);
@@ -114,19 +114,19 @@
 }
 
 
-.js-ships-animate {
-        -webkit-animation: ship-fly 1s ease-out 1 forwards;
+.js-feature-animate {
+        -webkit-animation: feature-animate 1s ease-out 1 forwards;
 }
 
-.js-ship-delay-1 {
+.js-feature-delay-1 {
         -webkit-animation-delay: 100ms;
 }
 
-.js-ship-delay-2 {
+.js-feature-delay-2 {
         -webkit-animation-delay: 200ms;
 }
 
-.js-ship-delay-3 {
+.js-feature-delay-3 {
         -webkit-animation-delay: 250ms;
 }
 
