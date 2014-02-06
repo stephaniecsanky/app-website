@@ -7,10 +7,10 @@ var $ships = $('.ships img') /* Unlike other above variables, this is 4 separate
 
 
 $('.ships-section').waypoint(function () {
-	$ships.eq(0).addClass('js-ships-delay-1');
-	$ships.eq(2).addClass('js-ships-delay-3');
-	$ships.eq(3).addClass('js-ships-delay-2');
-	$ships.addClass('js-ships-animate');
+	$ships.eq(0).addClass('js-feature-delay-1');
+	$ships.eq(2).addClass('js-feature-delay-3');
+	$ships.eq(3).addClass('js-feature-delay-2');
+	$ships.addClass('js-feature-animate');
 }, {offset: '60%'});
 
 
