@@ -1,7 +1,7 @@
 var $placeholder = $('.placeholder');
 
-$('.btn-load').on('click', function (){
-	$placeholder.load('loaded-in.html');
+$('.btn-load').on('click', function (){   // Button for loading an html page, not really needed for the testimonials section, it needs to trigger when you scroll 
+	$placeholder.load('loaded-in.html');	  // there and maybe have an option to scroll through.
 });
 
 
