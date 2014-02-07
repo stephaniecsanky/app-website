@@ -5,8 +5,8 @@ $('.btn-load').on('click', function (){   // Button for loading an html page, no
 });
 
 
-var rand = Math.round( Math.random() * 2);
-var file = 'veg-' + rand + '.html'; /* creates full name of the file */
+var rand = Math.round( Math.random() * 3);
+var file = 'testimonial-' + rand + '.html'; /* creates full name of the file */
 
 $('.rand-veg').load(file);
 
