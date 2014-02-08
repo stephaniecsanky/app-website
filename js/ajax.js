@@ -15,7 +15,7 @@ var quoteData = $.ajax('testimonials.json', {
 quoteData.done(function (data) {
 	var quote = Math.round( Math.random() * data.length - 1);
 
-	$('.user-name').html(data[quote].name);
-	$('.app-quote').html(data[quote].quote);
+	$('.user-name').html(data[testimonials].name);
+	$('.app-quote').html(data[testimonials].quote);
 });
 
