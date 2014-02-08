@@ -1,10 +1,4 @@
 var $placeholder = $('.placeholder');
-
-$('.btn-load').on('click', function (){   // Button for loading an html page, not really needed for the testimonials section, it needs to trigger when you scroll 
-	$placeholder.load('loaded-in.html');	  // there and maybe have an option to scroll through.
-});
-
-
 var rand = Math.round( Math.random() * 3);
 var file = 'testimonial-' + rand + '.html'; /* creates full name of the file */
 
@@ -21,7 +15,7 @@ var quoteData = $.ajax('testimonials.json', {
 quoteData.done(function (data) {
 	var quote = Math.round( Math.random() * data.length - 1);
 
-	$('.user-name').html(data[testimonials].name);
-	$('.app-quote').html(data[testimonials].quote);
+	$('.user-name').html(data[quote].name);
+	$('.app-quote').html(data[quote].quote);
 });
 
