@@ -1,0 +1,22 @@
+ // This is an array, collection where things have a specific order */
+	 /* This is an object, where things have a specific name */
+[
+	{
+		"name": "- Jane Doe",
+		"quote": "Thanks to ShopBuddy, my shopping experience is now stress-free!  I'll never shop without this app again!",
+	},
+	{
+		"name": "— John Smith",
+		"quote": "This app made my shopping trips quicker and easier. No more wasting time looking for things and waiting in lines!",
+	},
+	{
+		"name": "- Sam Wood",
+		"quote": "This app is so great, you'll want to go shopping every day!",
+	},
+	{
+		"name": "- Alex Hart",
+		"quote": "Before I had this app, I dreaded going shopping and spending money. Thanks to ShopBuddy, i've found a love for shopping!",
+	}
+]
+
+// Twitter follows a similar format when displaying '50 most recent tweets' or whatever
