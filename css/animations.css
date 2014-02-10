@@ -6,10 +6,10 @@
 
 
 .nav > li > a:hover {
-	-webkit-transition: .75s all ease;
-		-moz-transition: .75s all ease;
-			-o-transition: .75s all ease;
-				transition: .75s all ease;
+	-webkit-transition: 1s all ease;
+		-moz-transition: 1s all ease;
+			-o-transition: 1s all ease;
+				transition: 1s all ease;
 }
 
 

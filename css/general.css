@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-fixed-top {
-	background-color: #000;
+	background-color: #F93;
 	color:#fff;
 	vertical-align:top;
 }
@@ -40,11 +40,11 @@ blockquote {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color:#EED4A5;
+	color:#000;
 }
 
 .nav > li > a:hover {
-	text-decoration:none;
+	text-decoration:underline;
 	line-height:20px;	
 	color:#FFF;
 }
@@ -171,28 +171,30 @@ cursor: auto;
 }
 
 footer {
-	font-family: 'Gotham-Thin';
+	font-family:Gotham-light, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	line-height: 10px;
-	background-color: #000;
-	color:#fff;
-	padding: 10px;	
+	line-height: 12px;
+	background-color: #F93;
+	color:#000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 footer a {
-	color: #EED4A5;
+	color: #000;
+	text-decoration:underline;
+
 }
 
 footer a:hover {
-	color: #FFF;
+	color: #C90;
+	text-decoration:underline;
 }
 
 @media (min-width: 800px) and (max-width: 1100px) {
 
-	footer {
-		font-family: 'Gotham-Thin';
-	}
-	
 	.navbar {
 		font-size: 28px;
 	}
@@ -215,9 +217,8 @@ footer a:hover {
 	}
 	
 	footer {
-		font-family: 'Gotham-Thin';
+		font-family: 'Gotham-Light';
 		font-size: 20px;
-		padding: 20px;	
 	}
 	
 }
