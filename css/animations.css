@@ -87,11 +87,50 @@
 }
 
 
+/* CSS Animation */
 
 
 
+.orbit-section {
+        background-color: #C63;
+}
 
+.planet-wrapper {
+        position: relative;
+}
 
+.planet {
+        width: 100px;
+}
+
+.rocket {
+        left: 50%;
+        margin-left: -20px;
+        position: absolute;
+        top: -40px;
+        width: 40px;
+        -webkit-animation: rocket-rotation 6s linear infinite;
+        /*
+                animation-name: rocket-rotation;
+                animation-duration: 6s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+        */
+        -webkit-transform-origin: 50% 90px;
+}
+/*
+        Don't forget all the other vendor prefixes
+*/
+@-webkit-keyframes rocket-rotation {
+        100% {
+                -webkit-transform: rotate(-360deg);
+        }
+}
+
+img {
+        display: block;
+        margin: 0 auto;
+}
 
 
 
