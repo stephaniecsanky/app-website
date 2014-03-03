@@ -93,6 +93,7 @@
 
 .orbit-section {
         background-color: #C63;
+		height: 200px;
 }
 
 .planet-wrapper {
@@ -101,6 +102,7 @@
 
 .planet {
         width: 100px;
+		vertical-align:inherit;
 }
 
 .rocket {
